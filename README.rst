@@ -1,8 +1,7 @@
 DRF expirable auth tokens
 -------------------------------------
-Drop in replacement for Django REST framework's TokenAuthentication with
-stateless expirable tokens, far more appropriate for web application-server
-setups.
+Drop in replacement for DRF Token authentication with short lived tokens, far
+more appropriate for web application-server setups.
 
 Setup
 ^^^^^

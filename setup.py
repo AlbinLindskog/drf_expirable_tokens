@@ -3,7 +3,7 @@ from distutils.core import setup
 setup(
     name='DRF expirable auth tokens',
     version='0.0.1',
-    description='Drop in replacement for DRF .',
+    description='Drop in replacement for DRF Token authentication with short lived tokens.',
     long_description=open('README.rst').read(),
     install_requires=['django_tokens @ git+https://github.com/AlbinLindskog/django_tokens'],
     packages=['drf_expirable_authtokens'],
